@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ECC Civil | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact ECC Civil for quotes and site work services." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="site">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left">
+          <span>• Licensed</span>
+          <span>• Insured</span>
+          <span>• Reliable</span>
+        </div>
+
+        <div class="topbar__right">
+          <a class="topbar__link" href="tel:9196029614">📞 (919) 602-9614</a>
+          <span class="topbar__sep">|</span>
+          <a class="topbar__link" href="mailto:info@ecccivil.com">✉️ info@ecccivil.com</a>
+          <a class="btn btn--sm" href="contact.html">Request a Quote</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html" class="brand" aria-label="ECC Civil home">
+          <img src="IMAGES/imageslogo.png"
+               class="brand__logo"
+               alt="ECC Civil Logo" />
+        </a>
+
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+        <nav class="nav" data-nav>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- PAGE HERO -->
+      <section class="pageHero">
+        <div class="container">
+          <div class="sectionHead">
+            <div class="sectionEyebrow">Contact</div>
+            <h1 class="sectionTitle">Request a Quote</h1>
+          </div>
+          <p style="max-width:720px;color:#444;line-height:1.55;">
+            Tell us about your project and we’ll get back to you as soon as possible.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT CONTENT -->
+      <section class="section">
+        <div class="container" style="display:grid;grid-template-columns:1.1fr .9fr;gap:24px;">
+
+          <!-- FORM -->
+          <div>
+            <form class="form" action="#" method="post">
+              <label>
+                Name
+                <input type="text" name="name" required />
+              </label>
+
+              <label>
+                Phone
+                <input type="tel" name="phone" />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="email" required />
+              </label>
+
+              <label>
+             Project Details
+             <textarea name="message" rows="10" class="textarea--lg" required></textarea>
+             </label>
+
+
+              <p style="font-size:13px;color:#666;margin-top:10px;">
+                * This form is a placeholder until connected to Netlify Forms or another service.
+              </p>
+
+              <button class="btn" type="submit">Send Message</button>
+            </form>
+          </div>
+
+          <!-- SIDE CARD -->
+          <div class="heroCard">
+            <img src="IMAGES/imageslogo.png" alt="Equipment icon" style="width:120px;margin:0 auto 12px;display:block;" />
+            <div class="heroCard__title">ECC Civil</div>
+            <p class="heroCard__text" style="text-align:center;">
+              Grading • Clearing • Site Development
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© 2025 ECC Civil. All rights reserved.</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
