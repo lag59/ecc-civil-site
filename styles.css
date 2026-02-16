@@ -13,8 +13,8 @@
   --brand-dark: #6f1414;
 
   /* ✅ backgrounds per your request */
-  --hero-image-top: url("IMAGES/tophalfofpagebackground.png");
-  --hero-image-bottom: url("IMAGES/bottomhalfpagebackground.png");
+  --hero-image-top: url("IMAGES/IMAGES/tophalfofpagebackground.png");
+  --hero-image-bottom: url("IMAGES/IMAGES/bottomhalfpagebackground.png");
 }
 
 *{ box-sizing: border-box; }
