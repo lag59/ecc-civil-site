@@ -1,1 +1,5 @@
-
+{
+  "routes": [
+    { "route": "/*", "rewrite": "/maintenance.html" }
+  ]
+}
