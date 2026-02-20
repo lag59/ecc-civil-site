@@ -2,32 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>ECC Civil | Projects</title>
+  <title>ECC Civil Projects | Portfolio of Site Development Work</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ECC Civil projects and work examples." />
+  <meta name="description" content="View ECC Civil's project portfolio showcasing completed site development including land clearing, grading, and site preparation for residential and commercial projects." />
+  <meta name="keywords" content="site development projects, grading portfolio, clearing examples, excavation work, contractor portfolio" />
+  <meta name="author" content="ECC Civil" />
+  <meta property="og:title" content="ECC Civil Projects | Portfolio & Work Examples" />
+  <meta property="og:description" content="See our completed projects and quality of work." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ECC Civil Projects" />
+  <meta name="twitter:description" content="View our completed site development projects." />
+  <link rel="canonical" href="https://ecccivil.com/projects.html" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "ECC Civil Projects Portfolio",
+    "description": "Portfolio of site development projects showcasing grading, clearing, drainage, and earthwork solutions",
+    "creator": {
+      "@type": "Organization",
+      "name": "ECC Civil",
+      "url": "https://ecccivil.com"
+    },
+    "inLanguage": "en-US",
+    "image": "https://ecccivil.com/IMAGES/projectone.JPG"
+  }
+  </script>
 </head>
 
 <body>
 
-  <!-- (Optional but recommended) keeps the same “card” look as the homepage -->
-  <div class="site">
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span>• Licensed</span>
+        <span>• Insured</span>
+        <span>• Reliable</span>
+      </div>
+
+      <div class="topbar__right">
+        <a class="topbar__link" href="tel:9196029614">📞 (919) 602-9614</a>
+        <span class="topbar__sep">|</span>
+        <a class="topbar__link" href="mailto:info@ecccivil.com">✉️ info@ecccivil.com</a>
+        <a class="btn btn--sm" href="contact.html">Request a Quote</a>
+      </div>
+    </div>
+  </div>
 
     <header class="header">
       <div class="container header__inner">
-        <a href="index.html" class="brand">
-          <!-- Keep your current logo file OR swap to ECC_Civil_logo_transparent.png if you want -->
-          <img src="IMAGES/IMAGES/imageslogo.png" class="brand__logo" alt="ECC Civil Logo" />
-        </a>
+      <a href="index.html" class="brand" aria-label="ECC Civil home">
+        <img src="IMAGES/imageslogo.png" class="brand__logo" alt="ECC Civil Logo" />
+      </a>
 
         <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">☰</button>
 
         <nav class="nav" data-nav>
-          <a href="index.html">Home</a>
           <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
           <a href="about.html">About</a>
-          <a href="projects.html" class="active">Projects</a>
-          <a class="btn btn--sm" href="contact.html">Request a Quote</a>
+          <a class="nav__cta" href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -65,7 +102,7 @@
               <div class="projectGrid" style="grid-template-columns: 1fr; gap: 24px;">
 
                 <a class="projectCard" href="contact.html" aria-label="Project One">
-                  <img class="projectCard__img" src="IMAGES/IMAGES/projectone.JPG" alt="Project One photo" style="height: 200px; object-fit: cover;" />
+                  <img class="projectCard__img" src="IMAGES/projectone.JPG" alt="Project One photo" style="height: 200px; object-fit: cover;" />
                   <div class="projectCard__body">
                     <div class="projectCard__title">Land Clearing</div>
                     <div class="projectCard__meta">Site prep • grading • pad work</div>
@@ -73,7 +110,7 @@
                 </a>
 
                 <a class="projectCard" href="contact.html" aria-label="Project Two">
-                  <img class="projectCard__img" src="IMAGES/IMAGES/projecttwo.JPG" alt="Project Two photo" style="height: 200px; object-fit: cover;" />
+                  <img class="projectCard__img" src="IMAGES/projecttwo.JPG" alt="Project Two photo" style="height: 200px; object-fit: cover;" />
                   <div class="projectCard__body">
                     <div class="projectCard__title">Clearing & Grubbing</div>
                     <div class="projectCard__meta">Clearing • earthwork • rough grade</div>
@@ -92,7 +129,7 @@
 
               <a class="projectCard" href="services.html" 
               style="flex: 1;">
-                <img class="projectCard__img" src="IMAGES/IMAGES/machineone.png" alt="" style="height: 350px; object-fit: cover;" />
+                <img class="projectCard__img" src="IMAGES/machineone.png" alt="" style="height: 350px; object-fit: cover;" />
                 <div class="projectCard__body">
                   <div class="projectCard__title">Our Equipment</div>
                   
@@ -101,7 +138,7 @@
               </a>
 
               <a class="projectCard" href="services.html" aria-label="Machine Two" style="flex: 1;">
-                <img class="projectCard__img" src="IMAGES/IMAGES/machinetwo.png" alt="" style="height: 350px; object-fit: cover;" />
+                <img class="projectCard__img" src="IMAGES/machinetwo.png" alt="" style="height: 350px; object-fit: cover;" />
                 <div class="projectCard__body">
                   <div class="projectCard__title">Our Equipment</div>
                   
@@ -114,15 +151,13 @@
 
            
 
-    </main>
+  </main>
 
-    <footer class="footer">
-      <div class="container footer__inner">
-        <span>© 2025 ECC Civil. All rights reserved.</span>
-      </div>
-    </footer>
-
-  </div>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2025 ECC Civil. All rights reserved.</span>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
